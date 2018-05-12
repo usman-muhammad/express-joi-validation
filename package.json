@@ -1,12 +1,26 @@
 {
   "name": "express-rest-api-joi-validation",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "keywords": [
+    "expressjs",
+    "express-validation",
+    "Joi-validation",
+    "express-joi validation",
+    "express rest api joi validation",
+    "express route validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usman-muhammad/express-rest-api-joi-validation.git"
+  },
+  "author": "muhammad usman(usman.bsse884@gmail.com)",
+  "license": "MIT",
   "scripts": {
     "start": "node ./bin/www",
-    "lint-fix": "standard --fix app.js routes/*"
+    "lint-fix": "standard --fix app.js app/routes/* app/utils/*"
   },
   "dependencies": {
+    "celebrate": "^7.0.6",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
